@@ -1,0 +1,10 @@
+Androids-Corpus/
+features/
+features_clips/
+archive/
+
+# Third-party tools (re-downloadable)
+opensmile-3.0.2-windows-x86_64/
+
+*.npz
+*.docx

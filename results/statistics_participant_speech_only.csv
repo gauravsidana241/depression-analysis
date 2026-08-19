@@ -1,0 +1,37 @@
+segment_length,question,comparison,mean_diff_f1_%,t_stat,p_raw,corrected_alpha,significant
+32,Above Chance,LR (SMV) vs Random,11.74,3.5,0.0124,0.0125,True
+32,Above Chance,LR (WA) vs Random,13.58,3.94,0.0085,0.0125,True
+32,Above Chance,RNN (SMV) vs Random,12.96,2.94,0.0211,0.0125,False
+32,Above Chance,RNN (WA) vs Random,16.42,5.24,0.0032,0.0125,True
+32,Temporal vs Static,RNN (SMV) vs LR (SMV),1.22,0.3,0.7818,0.025,False
+32,Temporal vs Static,RNN (WA) vs LR (WA),2.84,1.18,0.3032,0.025,False
+64,Above Chance,LR (SMV) vs Random,11.74,3.5,0.0124,0.0125,True
+64,Above Chance,LR (WA) vs Random,13.14,3.64,0.011,0.0125,True
+64,Above Chance,RNN (SMV) vs Random,10.56,3.38,0.0139,0.0125,False
+64,Above Chance,RNN (WA) vs Random,15.01,4.21,0.0068,0.0125,True
+64,Temporal vs Static,RNN (SMV) vs LR (SMV),-1.18,-0.77,0.4818,0.025,False
+64,Temporal vs Static,RNN (WA) vs LR (WA),1.87,0.91,0.4131,0.025,False
+128,Above Chance,LR (SMV) vs Random,13.68,11.03,0.0002,0.0125,True
+128,Above Chance,LR (WA) vs Random,12.42,3.28,0.0153,0.0125,False
+128,Above Chance,RNN (SMV) vs Random,13.08,2.72,0.0265,0.0125,False
+128,Above Chance,RNN (WA) vs Random,14.47,3.37,0.0141,0.0125,False
+128,Temporal vs Static,RNN (SMV) vs LR (SMV),-0.6,-0.15,0.8869,0.025,False
+128,Temporal vs Static,RNN (WA) vs LR (WA),2.05,1.08,0.3404,0.025,False
+256,Above Chance,LR (SMV) vs Random,11.22,3.0,0.02,0.0125,False
+256,Above Chance,LR (WA) vs Random,13.02,3.25,0.0157,0.0125,False
+256,Above Chance,RNN (SMV) vs Random,9.23,2.01,0.0576,0.0125,False
+256,Above Chance,RNN (WA) vs Random,11.67,2.4,0.0373,0.0125,False
+256,Temporal vs Static,RNN (SMV) vs LR (SMV),-1.99,-1.12,0.3264,0.025,False
+256,Temporal vs Static,RNN (WA) vs LR (WA),-1.35,-0.52,0.6312,0.025,False
+512,Above Chance,LR (SMV) vs Random,10.67,3.45,0.013,0.0125,False
+512,Above Chance,LR (WA) vs Random,13.02,3.25,0.0157,0.0125,False
+512,Above Chance,RNN (SMV) vs Random,8.18,2.45,0.0354,0.0125,False
+512,Above Chance,RNN (WA) vs Random,10.13,3.87,0.009,0.0125,True
+512,Temporal vs Static,RNN (SMV) vs LR (SMV),-2.49,-0.5,0.6443,0.025,False
+512,Temporal vs Static,RNN (WA) vs LR (WA),-2.89,-0.6,0.5823,0.025,False
+1024,Above Chance,LR (SMV) vs Random,11.22,3.0,0.02,0.0125,False
+1024,Above Chance,LR (WA) vs Random,12.19,3.55,0.0119,0.0125,True
+1024,Above Chance,RNN (SMV) vs Random,4.45,0.67,0.2696,0.0125,False
+1024,Above Chance,RNN (WA) vs Random,6.71,1.08,0.1711,0.0125,False
+1024,Temporal vs Static,RNN (SMV) vs LR (SMV),-6.77,-0.86,0.4385,0.025,False
+1024,Temporal vs Static,RNN (WA) vs LR (WA),-5.49,-0.76,0.4906,0.025,False

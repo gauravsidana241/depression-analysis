@@ -1,0 +1,25 @@
+segment_length,comparison,mean_diff_f1_%,t_stat,p_raw,corrected_alpha,significant
+32,raw vs po — LR (SMV),-5.8,-1.44,0.2238,0.0125,False
+32,raw vs po — LR (WA),-5.43,-1.42,0.2297,0.0125,False
+32,raw vs po — RNN (SMV),6.72,2.13,0.1005,0.0125,False
+32,raw vs po — RNN (WA),3.68,2.36,0.0781,0.0125,False
+64,raw vs po — LR (SMV),-5.91,-1.54,0.1982,0.0125,False
+64,raw vs po — LR (WA),-4.98,-1.32,0.2572,0.0125,False
+64,raw vs po — RNN (SMV),1.37,0.87,0.4347,0.0125,False
+64,raw vs po — RNN (WA),-1.04,-2.51,0.0658,0.0125,False
+128,raw vs po — LR (SMV),-7.85,-2.18,0.0943,0.0125,False
+128,raw vs po — LR (WA),-4.27,-0.93,0.4056,0.0125,False
+128,raw vs po — RNN (SMV),-2.39,-1.28,0.2688,0.0125,False
+128,raw vs po — RNN (WA),-1.25,-0.83,0.4549,0.0125,False
+256,raw vs po — LR (SMV),-6.58,-1.9,0.131,0.0125,False
+256,raw vs po — LR (WA),-4.87,-1.09,0.3373,0.0125,False
+256,raw vs po — RNN (SMV),2.58,2.05,0.1091,0.0125,False
+256,raw vs po — RNN (WA),0.72,0.38,0.7206,0.0125,False
+512,raw vs po — LR (SMV),-5.51,-1.4,0.2333,0.0125,False
+512,raw vs po — LR (WA),-4.87,-1.09,0.3373,0.0125,False
+512,raw vs po — RNN (SMV),-3.91,-1.07,0.345,0.0125,False
+512,raw vs po — RNN (WA),-3.14,-0.96,0.3924,0.0125,False
+1024,raw vs po — LR (SMV),-7.1,-1.89,0.131,0.0125,False
+1024,raw vs po — LR (WA),-4.04,-1.04,0.3562,0.0125,False
+1024,raw vs po — RNN (SMV),-17.18,-2.97,0.0411,0.0125,False
+1024,raw vs po — RNN (WA),-13.46,-2.37,0.0771,0.0125,False

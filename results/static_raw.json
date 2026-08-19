@@ -1,0 +1,5219 @@
+{
+ "condition": "raw",
+ "segment_lengths": [
+  32,
+  64,
+  128,
+  256,
+  512,
+  1024
+ ],
+ "lr": {
+  "32": {
+   "smv": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.8888888888888888,
+     "recall": 0.6153846153846154,
+     "f1": 0.7272727272727273
+    },
+    {
+     "acc": 0.5652173913043478,
+     "precision": 0.5,
+     "recall": 0.5,
+     "f1": 0.5
+    },
+    {
+     "acc": 0.5217391304347826,
+     "precision": 1.0,
+     "recall": 0.3888888888888889,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "wa": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.8888888888888888,
+     "recall": 0.6153846153846154,
+     "f1": 0.7272727272727273
+    },
+    {
+     "acc": 0.6521739130434783,
+     "precision": 0.625,
+     "recall": 0.5,
+     "f1": 0.5555555555555556
+    },
+    {
+     "acc": 0.5652173913043478,
+     "precision": 1.0,
+     "recall": 0.4444444444444444,
+     "f1": 0.6153846153846154
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "pooled": [
+    {
+     "sid": "01_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "20_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "22_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "23_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "24_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "25_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "29_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "30_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "48_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "14_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "24_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "35_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "37_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "43_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "46_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "59_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "64_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "12_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "14_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "46_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "53_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "16_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "20_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "23_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "41_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "48_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "60_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "61_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "69_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "72_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "03_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "04_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "09_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "28_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "31_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "37_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "40_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "41_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "56_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "06_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "13_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "31_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "42_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "62_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "65_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "66_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "21_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "01_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "04_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "07_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "09_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "12_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "22_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "25_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "53_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "56_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "58_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "67_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "70_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "71_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "06_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "07_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "13_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "16_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "19_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "39_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "45_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "47_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "03_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "19_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "21_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "29_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "47_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "68_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    }
+   ]
+  },
+  "64": {
+   "smv": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.6956521739130435,
+     "precision": 0.8,
+     "recall": 0.6153846153846154,
+     "f1": 0.6956521739130435
+    },
+    {
+     "acc": 0.6086956521739131,
+     "precision": 0.5555555555555556,
+     "recall": 0.5,
+     "f1": 0.5263157894736842
+    },
+    {
+     "acc": 0.5217391304347826,
+     "precision": 1.0,
+     "recall": 0.3888888888888889,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "wa": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.8888888888888888,
+     "recall": 0.6153846153846154,
+     "f1": 0.7272727272727273
+    },
+    {
+     "acc": 0.6521739130434783,
+     "precision": 0.625,
+     "recall": 0.5,
+     "f1": 0.5555555555555556
+    },
+    {
+     "acc": 0.5652173913043478,
+     "precision": 1.0,
+     "recall": 0.4444444444444444,
+     "f1": 0.6153846153846154
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "pooled": [
+    {
+     "sid": "01_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "20_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "22_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "23_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "24_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "25_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "29_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "30_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "48_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "14_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "24_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "35_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "37_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "43_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "46_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "59_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "64_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "12_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "14_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "46_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "53_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "16_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "20_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "23_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "41_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "48_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "60_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "61_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "69_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "72_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "03_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "04_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "09_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "28_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "31_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "37_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "40_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "41_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "56_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "06_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "13_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "31_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "42_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "62_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "65_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "66_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "21_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "01_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "04_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "07_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "09_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "12_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "22_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "25_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "53_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "56_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "58_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "67_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "70_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "71_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "06_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "07_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "13_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "16_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "19_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "39_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "45_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "47_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "03_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "19_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "21_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "29_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "47_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "68_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    }
+   ]
+  },
+  "128": {
+   "smv": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.6956521739130435,
+     "precision": 0.8,
+     "recall": 0.6153846153846154,
+     "f1": 0.6956521739130435
+    },
+    {
+     "acc": 0.6086956521739131,
+     "precision": 0.5555555555555556,
+     "recall": 0.5,
+     "f1": 0.5263157894736842
+    },
+    {
+     "acc": 0.5217391304347826,
+     "precision": 1.0,
+     "recall": 0.3888888888888889,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "wa": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.8888888888888888,
+     "recall": 0.6153846153846154,
+     "f1": 0.7272727272727273
+    },
+    {
+     "acc": 0.6521739130434783,
+     "precision": 0.625,
+     "recall": 0.5,
+     "f1": 0.5555555555555556
+    },
+    {
+     "acc": 0.5652173913043478,
+     "precision": 1.0,
+     "recall": 0.4444444444444444,
+     "f1": 0.6153846153846154
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "pooled": [
+    {
+     "sid": "01_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "20_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "22_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "23_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "24_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "25_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "29_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "30_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "48_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "14_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "24_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "35_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "37_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "43_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "46_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "59_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "64_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "12_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "14_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "46_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "53_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "16_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "20_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "23_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "41_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "48_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "60_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "61_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "69_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "72_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "03_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "04_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "09_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "28_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "31_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "37_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "40_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "41_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "56_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "06_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "13_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "31_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "42_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "62_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "65_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "66_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "21_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "01_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "04_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "07_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "09_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "12_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "22_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "25_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "53_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "56_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "58_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "67_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "70_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "71_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "06_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "07_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "13_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "16_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "19_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "39_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "45_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "47_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "03_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "19_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "21_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "29_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "47_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "68_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    }
+   ]
+  },
+  "256": {
+   "smv": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.6956521739130435,
+     "precision": 0.8,
+     "recall": 0.6153846153846154,
+     "f1": 0.6956521739130435
+    },
+    {
+     "acc": 0.5652173913043478,
+     "precision": 0.5,
+     "recall": 0.5,
+     "f1": 0.5
+    },
+    {
+     "acc": 0.5217391304347826,
+     "precision": 1.0,
+     "recall": 0.3888888888888889,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.6956521739130435,
+     "precision": 0.7,
+     "recall": 0.6363636363636364,
+     "f1": 0.6666666666666666
+    }
+   ],
+   "wa": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.8888888888888888,
+     "recall": 0.6153846153846154,
+     "f1": 0.7272727272727273
+    },
+    {
+     "acc": 0.6521739130434783,
+     "precision": 0.625,
+     "recall": 0.5,
+     "f1": 0.5555555555555556
+    },
+    {
+     "acc": 0.5652173913043478,
+     "precision": 1.0,
+     "recall": 0.4444444444444444,
+     "f1": 0.6153846153846154
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "pooled": [
+    {
+     "sid": "01_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "20_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "22_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "23_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "24_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "25_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "29_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "30_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "48_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "14_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "24_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "35_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "37_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "43_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "46_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "59_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "64_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "12_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "14_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "46_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "53_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "16_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "20_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "23_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "41_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "48_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "60_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "61_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "69_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "72_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "03_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "04_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "09_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "28_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "31_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "37_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "40_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "41_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "56_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "06_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "13_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "31_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "42_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "62_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "65_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "66_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "21_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "01_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "04_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "07_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "09_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "12_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "22_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "25_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "53_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "56_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "58_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "67_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "70_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "71_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "06_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "07_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "13_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "16_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "19_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "39_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "45_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "47_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "03_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "19_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "21_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "29_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "47_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "68_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    }
+   ]
+  },
+  "512": {
+   "smv": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.6956521739130435,
+     "precision": 0.8,
+     "recall": 0.6153846153846154,
+     "f1": 0.6956521739130435
+    },
+    {
+     "acc": 0.6086956521739131,
+     "precision": 0.5555555555555556,
+     "recall": 0.5,
+     "f1": 0.5263157894736842
+    },
+    {
+     "acc": 0.5217391304347826,
+     "precision": 1.0,
+     "recall": 0.3888888888888889,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.6956521739130435,
+     "precision": 0.7,
+     "recall": 0.6363636363636364,
+     "f1": 0.6666666666666666
+    }
+   ],
+   "wa": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.8888888888888888,
+     "recall": 0.6153846153846154,
+     "f1": 0.7272727272727273
+    },
+    {
+     "acc": 0.6521739130434783,
+     "precision": 0.625,
+     "recall": 0.5,
+     "f1": 0.5555555555555556
+    },
+    {
+     "acc": 0.5652173913043478,
+     "precision": 1.0,
+     "recall": 0.4444444444444444,
+     "f1": 0.6153846153846154
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "pooled": [
+    {
+     "sid": "01_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "20_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "22_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "23_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "24_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "25_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "29_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "30_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "48_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "14_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "24_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "35_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "37_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "43_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "46_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "59_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "64_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "12_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "14_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "46_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "53_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "16_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "20_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "23_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "41_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "48_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "60_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "61_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "69_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "72_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "03_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "04_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "09_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "28_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "31_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "37_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "40_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "41_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "56_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "06_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "13_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "31_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "42_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "62_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "65_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "66_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "21_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "01_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "04_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "07_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "09_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "12_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "22_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "25_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "53_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "56_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "58_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "67_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "70_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "71_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "06_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "07_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "13_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "16_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "19_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "39_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "45_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "47_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "03_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "19_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "21_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "29_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "47_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "68_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    }
+   ]
+  },
+  "1024": {
+   "smv": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.6521739130434783,
+     "precision": 0.7777777777777778,
+     "recall": 0.5384615384615384,
+     "f1": 0.6363636363636364
+    },
+    {
+     "acc": 0.5652173913043478,
+     "precision": 0.5,
+     "recall": 0.5,
+     "f1": 0.5
+    },
+    {
+     "acc": 0.5217391304347826,
+     "precision": 1.0,
+     "recall": 0.3888888888888889,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "wa": [
+    {
+     "acc": 0.5416666666666666,
+     "precision": 0.5384615384615384,
+     "recall": 0.5833333333333334,
+     "f1": 0.56
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.8888888888888888,
+     "recall": 0.6153846153846154,
+     "f1": 0.7272727272727273
+    },
+    {
+     "acc": 0.6521739130434783,
+     "precision": 0.625,
+     "recall": 0.5,
+     "f1": 0.5555555555555556
+    },
+    {
+     "acc": 0.5652173913043478,
+     "precision": 1.0,
+     "recall": 0.4444444444444444,
+     "f1": 0.6153846153846154
+    },
+    {
+     "acc": 0.7391304347826086,
+     "precision": 0.7777777777777778,
+     "recall": 0.6363636363636364,
+     "f1": 0.7
+    }
+   ],
+   "pooled": [
+    {
+     "sid": "01_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "20_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "22_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "23_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "24_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "25_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "29_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "30_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "48_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "14_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "24_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "35_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "37_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "43_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "46_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "59_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "64_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "12_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "14_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "38_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "46_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "53_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "02_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "16_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "20_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "23_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "41_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "48_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "57_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "60_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "61_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "69_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "72_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "03_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "04_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "09_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "28_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "31_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "37_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "40_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "41_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "56_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "06_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "13_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "15_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "31_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "42_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "52_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "62_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "65_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "66_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "05_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "21_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "32_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "44_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "01_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "04_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "07_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "09_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "10_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "11_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "12_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "17_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "22_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "25_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "26_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "49_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "53_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "56_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "58_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "67_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "70_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "71_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "06_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "07_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "13_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "16_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "19_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "27_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "36_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "39_C",
+     "y_true": 0,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "45_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "47_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "50_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_C",
+     "y_true": 0,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "03_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "08_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "18_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "19_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "21_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "29_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "33_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "47_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "51_P",
+     "y_true": 1,
+     "y_pred_smv": 0,
+     "y_pred_wa": 0
+    },
+    {
+     "sid": "54_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    },
+    {
+     "sid": "68_P",
+     "y_true": 1,
+     "y_pred_smv": 1,
+     "y_pred_wa": 1
+    }
+   ]
+  }
+ },
+ "svm": {
+  "folds": [
+   {
+    "acc": 0.7916666666666666,
+    "precision": 0.7692307692307693,
+    "recall": 0.8333333333333334,
+    "f1": 0.8
+   },
+   {
+    "acc": 0.8695652173913043,
+    "precision": 0.9166666666666666,
+    "recall": 0.8461538461538461,
+    "f1": 0.88
+   },
+   {
+    "acc": 0.782608695652174,
+    "precision": 0.6923076923076923,
+    "recall": 0.9,
+    "f1": 0.782608695652174
+   },
+   {
+    "acc": 0.8260869565217391,
+    "precision": 0.9375,
+    "recall": 0.8333333333333334,
+    "f1": 0.8823529411764706
+   },
+   {
+    "acc": 0.7391304347826086,
+    "precision": 0.7272727272727273,
+    "recall": 0.7272727272727273,
+    "f1": 0.7272727272727273
+   }
+  ],
+  "pooled": [
+   {
+    "sid": "01_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "02_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "18_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "20_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "22_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "23_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "24_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "25_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "29_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "30_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "48_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "49_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "05_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "14_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "24_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "27_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "35_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "37_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "38_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "43_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "46_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "50_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "59_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "64_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "12_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "14_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "26_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "33_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "38_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "46_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "51_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "52_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "53_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "57_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "02_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "16_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "20_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "23_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "32_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "41_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "44_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "48_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "57_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "60_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "61_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "69_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "72_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "03_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "04_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "08_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "09_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "10_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "15_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "17_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "28_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "31_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "37_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "40_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "41_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "56_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "06_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "13_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "15_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "31_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "36_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "42_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "52_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "62_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "65_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "66_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "05_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "11_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "21_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "32_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "44_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "01_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "04_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "07_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "09_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "10_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "11_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "12_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "17_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "22_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "25_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "26_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "49_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "53_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "56_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "58_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "67_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "70_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "71_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "06_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "07_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "13_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "16_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "19_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "27_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "36_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "39_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "45_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "47_C",
+    "y_true": 0,
+    "y_pred": 1
+   },
+   {
+    "sid": "50_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "54_C",
+    "y_true": 0,
+    "y_pred": 0
+   },
+   {
+    "sid": "03_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "08_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "18_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "19_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "21_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "29_P",
+    "y_true": 1,
+    "y_pred": 0
+   },
+   {
+    "sid": "33_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "47_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "51_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "54_P",
+    "y_true": 1,
+    "y_pred": 1
+   },
+   {
+    "sid": "68_P",
+    "y_true": 1,
+    "y_pred": 0
+   }
+  ]
+ },
+ "random_baseline": {
+  "acc": 0.5061724137931034,
+  "precision": 0.5514762351805818,
+  "recall": 0.5527428431464532,
+  "f1": 0.5500890690469816
+ }
+}
