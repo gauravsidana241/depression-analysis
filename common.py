@@ -1,12 +1,3 @@
-"""
-Shared setup, models and training/evaluation routines.
-
-All modelling choices are unchanged from the original notebooks: a two-layer
-tanh RNN (hidden size 70, dropout 0.3) trained for 30 epochs with AdamW
-(lr 1e-4, weight decay 1e-2), gradient clipping at max-norm 5.0, batch size
-512, and BCEWithLogits loss over 32-dimensional IS09 feature vectors.
-"""
-
 import os
 import csv
 import json
@@ -27,24 +18,18 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 CORPUS = "./Androids-Corpus/Androids-Corpus"
 
-# Audio conditions. "po" uses the participant-only turn clips concatenated in
-# chronological order; "raw" uses the unedited interview recordings, which also
-# contain the interviewer's speech.
 FEATURE_PATHS = {
     "po":  "./androids_is09_participant_clips.npz",
     "raw": "./androids_is09_02.npz",
 }
 
 SEGMENT_LENGTHS = [32, 64, 128, 256, 512, 1024]
-SEEDS = (0, 1, 2, 3, 4)          # R = 5 repetitions
+SEEDS = (0, 1, 2, 3, 4)
 
 
-# --------------------------------------------------------------------------
 # Corpus metadata
-# --------------------------------------------------------------------------
 
 def load_metadata():
-    """Returns (interview_df, label_of, gender_of, interview_folds)."""
     interview_task_path = f"{CORPUS}/Interview-Task/audio"
     rows = []
     for condition in os.listdir(interview_task_path):
@@ -63,8 +48,7 @@ def load_metadata():
             })
     interview_df = pd.DataFrame(rows)
 
-    label_of = {sid: 1 if c == "P" else 0
-                for sid, c in zip(interview_df.speaker_id, interview_df.condition)}
+    label_of = {sid: 1 if c == "P" else 0 for sid, c in zip(interview_df.speaker_id, interview_df.condition)}
     gender_of = dict(zip(interview_df.speaker_id, interview_df.gender))
 
     fold_list = pd.read_csv(f"{CORPUS}/fold-lists.csv", header=None, skiprows=2)
@@ -106,9 +90,7 @@ def fold_speakers(interview_folds, k):
     return train, test
 
 
-# --------------------------------------------------------------------------
 # Metrics
-# --------------------------------------------------------------------------
 
 def compute_metrics(y_true, y_pred):
     acc = accuracy_score(y_true, y_pred)
@@ -136,9 +118,7 @@ def random_baseline(label_of, n_trials=1000, seed=0):
     return {key: float(np.mean(vals)) for key, vals in acc.items()}
 
 
-# --------------------------------------------------------------------------
 # Dataset and model
-# --------------------------------------------------------------------------
 
 class AndroidsSegmentDataset(Dataset):
     def __init__(self, data_dict, speaker_ids, labels_dict, segment_length=128):
@@ -277,13 +257,10 @@ def evaluate_speakers(model, data_loader):
     return y_true, y_pred_smv, y_pred_wa, sids
 
 
-# --------------------------------------------------------------------------
 # Training routines
-# --------------------------------------------------------------------------
 
 def run_rnn(data, label_of, interview_folds, segment_length,
             folds=5, hidden_size=70, epochs=30, verbose=False):
-    """One full 5-fold cross-validation at a single initialisation."""
     smv_metrics, wa_metrics = [], []
     pooled_preds = []
     loss_curves = {}
@@ -333,22 +310,12 @@ def run_rnn(data, label_of, interview_folds, segment_length,
         wa_metrics.append(compute_metrics(y_true, y_pred_wa))
 
         for sid, yt, yp_smv, yp_wa in zip(sids, y_true, y_pred_smv, y_pred_wa):
-            pooled_preds.append({"sid": sid, "y_true": int(yt),
-                                 "y_pred_smv": int(yp_smv), "y_pred_wa": int(yp_wa)})
+            pooled_preds.append({"sid": sid, "y_true": int(yt), "y_pred_smv": int(yp_smv), "y_pred_wa": int(yp_wa)})
 
     return smv_metrics, wa_metrics, loss_curves, pooled_preds
 
 
-def run_rnn_seeds(data, label_of, interview_folds, segment_length,
-                  seeds=SEEDS, **kw):
-    """Repeat the cross-validation once per initialisation, then average the
-    repetitions *within* each fold.
-
-    The returned metric lists hold one entry per fold, with variance due to
-    random initialisation averaged out and variance due to data sampling
-    preserved. Every reported standard deviation and every statistical test is
-    computed over these five fold-level values.
-    """
+def run_rnn_seeds(data, label_of, interview_folds, segment_length, seeds=SEEDS, **kw):
     metrics = ["acc", "precision", "recall", "f1"]
     per_seed_smv, per_seed_wa = [], []
     all_pooled = []
@@ -384,7 +351,6 @@ def run_rnn_seeds(data, label_of, interview_folds, segment_length,
 
 
 def run_lr(data, label_of, interview_folds, segment_length, folds=5):
-    """Logistic Regression on individual frames, aggregated to speaker level."""
     smv_metrics, wa_metrics = [], []
     pooled_preds = []
 
@@ -436,7 +402,6 @@ def run_lr(data, label_of, interview_folds, segment_length, folds=5):
 
 
 def run_svm(data, label_of, interview_folds, folds=5):
-    """Linear SVM on the per-speaker mean feature vector (whole-recording average)."""
     fold_metrics, pooled_preds = [], []
 
     for k in range(1, folds + 1):
@@ -458,11 +423,6 @@ def run_svm(data, label_of, interview_folds, folds=5):
             pooled_preds.append({"sid": sid, "y_true": int(yt), "y_pred": int(yp)})
 
     return fold_metrics, pooled_preds
-
-
-# --------------------------------------------------------------------------
-# Persistence
-# --------------------------------------------------------------------------
 
 RESULTS_DIR = "results"
 
