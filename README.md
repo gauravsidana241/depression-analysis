@@ -24,7 +24,7 @@ A stacked RNN is compared against Logistic Regression and SVM baselines on IS09 
 
 2. Create the `features/`, `features_clips/`, `results/` and `figures/` folders.
 
-3. The dataset (Androids-corpus, 3.69 GB) is not included. Download it from https://github.com/androidscorpus/data and place it in the same directory as the notebooks, at `./Androids-corpus/`.
+3. The dataset (Androids-corpus, 3.69 GB) is not included. Download it from https://github.com/androidscorpus/data and place it in the same directory as the notebooks, at `./Androids-Corpus/`.
 
 4. openSMILE is not included either. Download it and place it at `./opensmile-3.0.2-windows-x86_64/`.
 
