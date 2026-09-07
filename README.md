@@ -1,6 +1,6 @@
 # Depression Detection from Speech
 
-Code for the MSc dissertation *Temporal vs Static Models for Depression Detection in Speech: A Comparison Across Segment Lengths in the Androids Corpus*.
+Code for my MSc dissertation at the University of Glasgow.
 
 A stacked RNN is compared against Logistic Regression and SVM baselines on IS09 acoustic features, across segment lengths from 32 to 1024 frames and under two audio conditions.
 
