@@ -6,8 +6,10 @@ features/
 features_clips/
 archive/
 submission/
+MSc_project_3152623s/
 
 # Third-party tools (re-downloadable)
 opensmile-3.0.2-windows-x86_64/
 
 *.npz
+*.zip

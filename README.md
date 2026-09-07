@@ -31,5 +31,5 @@ A stacked RNN is compared against Logistic Regression and SVM baselines on IS09 
 ## Running the experiments
 
 1. Run `feature_extraction.ipynb`. Features are written to `features/` and `features_clips/`.
-2. Run `train_rnn.ipynb` and `train_static.ipynb` twice each, once per audio condition (PO and raw). Instructions for switching conditions are in the notebooks.
+2. Run `train_rnn.ipynb` and `train_static.ipynb` twice each, once per audio condition (po and raw). Instructions for switching conditions are in the notebooks.
 3. Run `results.ipynb` to produce all results and observations reported in the dissertation. Outputs are written to `results/` and `figures/`.

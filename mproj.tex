@@ -61,7 +61,6 @@ Generative AI tools were used in the preparation of this dissertation in the fol
 
 \begin{itemize}
   \item Correcting grammar, spelling, and phrasing in text that I had already written. The content, structure, and argument of every passage are my own.
-  \item Checking that cited works exist as described and that their bibliographic details are accurate. All sources were located, read, and assessed by me.
   \item Restructuring and splitting my existing Jupyter notebooks into a modular form as the scope of the study grew, from a single audio condition to two, from a single segment length to a sweep across several, and from one classifier to multiple static baselines. The implementation, experimental design, and analysis are my own work, and AI assistance was limited to reorganising existing code for clarity and efficiency.
 \end{itemize}
 
@@ -327,7 +326,7 @@ The best performance overall is obtained by the RNN under Weighted Average at a 
 
 The effect of segment length is the clearest pattern in the results. The RNN performs best at the shortest length tested and declines monotonically as segments lengthen: under Weighted Average its F1 score falls from 71.4\% at $L = 32$ to 61.7\% at $L = 1024$, with accuracy falling over the same range from 73.5\% to 59.0\%. The Logistic Regression, by contrast, is essentially flat, varying between 68.6\% and 67.2\% across all six lengths. This is the behaviour anticipated in Section 3.4: because the Logistic Regression classifies each frame in isolation, segment length affects only how frame-level probabilities are grouped before aggregation. The control therefore behaves as designed, and the entire observed effect of segment length is attributable to the temporal model.
 
-This decline is likely driven by two factors. The first concerns aggregation rather than modelling: as $L$ grows, each speaker yields proportionally fewer segments, so the aggregation step operates over fewer predictions and the speaker-level decision becomes correspondingly less stable. The second concerns the model itself, since a recurrent network with tanh activations must carry information across increasingly long sequences, which is precisely the difficulty that motivated segmentation in the first place (Section 3.2). The results at $L = 1024$ are consistent with both: the F1 score of 61.7\% is accompanied by a standard deviation of 13.9 points, the largest of any configuration tested, indicating that performance at this length depends heavily on which speakers fall in the test fold.
+This decline is likely driven by two factors. The first concerns aggregation rather than modelling: as $L$ grows, each speaker yields proportionally fewer segments, so the aggregation step operates over fewer predictions and the speaker-level decision becomes correspondingly less stable. The second concerns the model itself, since a recurrent network with tanh activations must carry information across increasingly long sequences, which is precisely the difficulty that motivated segmentation in the first place (Section 3.2). The results at $L = 1024$ are consistent with both: the F1 score of 61.7\% is accompanied by a standard deviation of 13.9 points, the largest of any configuration tested under Weighted Average, indicating that performance at this length depends heavily on which speakers fall in the test fold.
 
 Turning to the central question, no statistically significant difference is observed between the temporal and static classifiers at any segment length, under either aggregation strategy. The largest difference in favour of the RNN occurs at $L = 32$ under Weighted Average, where its F1 score exceeds that of the Logistic Regression by 2.84 points, but this is not statistically significant ($t = 1.18$, $p = 0.303$; $\alpha = 0.025$). At the two shortest lengths the difference favours the RNN, and at $L \geq 256$ it reverses sign, with the Logistic Regression ahead by 1.35 and 2.89 points at $L = 256$ and $L = 512$ respectively. Therefore, under these conditions, a temporal classifier does not significantly outperform a static one. As noted in Section 3.6, the limited number of folds means that a difference of this size would not reliably be detected even if it were real, and the absence of a significant result should not be read as evidence that no such difference exists.
 
@@ -419,7 +418,21 @@ Future research directions emerge from these limitations and from the reflection
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Complete Results}\label{app:full-results}
 
-This appendix reports the full set of results summarised in Chapter~\ref{results}. Tables~\ref{tab:appendix-metrics-participant} and~\ref{tab:appendix-metrics-full} give the classification metrics for every model and segment length under each audio condition. The remaining tables give the statistical comparisons, organised by the three families declared in Section 3.6: Tables~\ref{tab:appendix-stats-participant} and~\ref{tab:appendix-stats-full} cover the comparisons made within the participant-only and full-recording conditions respectively, and Table~\ref{tab:appendix-stats-audio} covers the comparisons made between the two conditions. Table~\ref{tab:appendix-stats-svm} reports the comparisons involving the Support Vector Machine, which is evaluated at the level of the whole recording and so has no associated segment length.
+\section{Code Availability}\label{sec:code}
+
+Code for the experiments reported here is at:
+
+\url{https://github.com/gauravsidana241/depression-analysis}
+
+The repository does not include the Androids Corpus. It is a publicly
+available dataset, released by its authors, and needs to be placed alongside
+the notebooks before anything can be run. The README documents the environment
+setup and the sequence in which the notebooks should be executed to reproduce
+the results reported in Section~\ref{sec:results-tables}.
+
+\section{Results Tables}\label{sec:results-tables}
+
+This section reports the full set of results summarised in Chapter~\ref{results}. Tables~\ref{tab:appendix-metrics-participant} and~\ref{tab:appendix-metrics-full} give the classification metrics for every model and segment length under each audio condition. The remaining tables give the statistical comparisons, organised by the three families declared in Section 3.6: Tables~\ref{tab:appendix-stats-participant} and~\ref{tab:appendix-stats-full} cover the comparisons made within the participant-only and full-recording conditions respectively, and Table~\ref{tab:appendix-stats-audio} covers the comparisons made between the two conditions. Table~\ref{tab:appendix-stats-svm} reports the comparisons involving the Support Vector Machine, which is evaluated at the level of the whole recording and so has no associated segment length.
 
 {\small\setlength{\tabcolsep}{3pt}
 \begin{longtable}{llccccrr}
